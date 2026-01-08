@@ -39,40 +39,24 @@ It focuses on providing a clean developer experience, deep Laravel integration, 
 
 ## Branding
 
-<table align="center" cellpadding="10">
-  <tr>
-    <!-- Dark Mode Logo -->
-    <td align="center">
-      <p><strong>Dark Mode</strong></p>
-      <span style="display:inline-flex; align-items:center; gap:10px;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 42 42">
-          <rect x="4" y="4" width="12" height="12" rx="2" fill="#F9322C"></rect>
-          <rect x="16" y="16" width="12" height="12" rx="2" fill="#6C5CE7"></rect>
-          <rect x="28" y="28" width="12" height="12" rx="2" fill="#F9322C"></rect>
-        </svg>
-        <strong style="font-size:20px; font-weight:900;">
-          <span style="color:#e5e7eb;">Lara</span>
-          <span style="color:#F9322C;">Flow</span>
-        </strong>
-      </span>
-    </td>
-    <td align="center">
-      <p><strong>Light Mode</strong></p>
-      <span style="display:inline-flex; align-items:center; gap:10px;">
-        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 42 42">
-          <rect x="4" y="4" width="12" height="12" rx="2" fill="#F9322C"></rect>
-          <rect x="16" y="16" width="12" height="12" rx="2" fill="#6C5CE7"></rect>
-          <rect x="28" y="28" width="12" height="12" rx="2" fill="#F9322C"></rect>
-        </svg>
-        <strong style="font-size:20px; font-weight:900;">
-          <span style="color:#333;">Lara</span>
-          <span style="color:#F9322C;">Flow</span>
-        </strong>
-      </span>
-    </td>
-  </tr>
+<table align="center">
+<tr>
+  <td align="center">
+    <p><strong>🌙 Dark Mode</strong></p>
+    <span style="display:inline-flex;align-items:center;gap:10px;">
+      <img src="./public/images/logo/icon.svg" width="32" height="32" alt="Lara Flow Logo">
+      <strong style="font-size:20px;font-weight:900;color:#e5e7eb;">Lara</strong><strong style="font-size:20px;font-weight:900;color:#F9322C;">Flow</strong>
+    </span>
+  </td>
+  <td align="center">
+    <p><strong>☀️ Light Mode</strong></p>
+    <span style="display:inline-flex;align-items:center;gap:10px;">
+       <img src="./public/images/logo/icon.svg" width="32" height="32" alt="Lara Flow Logo">
+      <strong style="font-size:20px;font-weight:900;color:#333;">Lara</strong><strong style="font-size:20px;font-weight:900;color:#F9322C;">Flow</strong>
+    </span>
+  </td>
+</tr>
 </table>
-
 
 
 The Lara Flow logo is Blade-templated and optimized for both light and dark interfaces, ensuring consistent branding across dashboards and user interfaces.
@@ -177,7 +161,7 @@ Installation instructions will be provided once the first stable release is avai
 
 Planned installation flow:
 ```bash
-git clone https://github.com/yourusername/lara-flow.git
+git clone https://github.com/Tsrgtm/lara-flow.git
 cd lara-flow
 composer install
 php artisan migrate
